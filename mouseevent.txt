@@ -1,0 +1,14 @@
+import java.applet.*;
+import java.awt.*;
+import java.awt.event.*;
+public class mouseevents extends Appletimplements
+  MouseListener,MouseMotionListener
+{
+String msg="";
+int mousex=0,mousey=0;
+public void init()
+addMouseListener(this);
+addMouseMotionListener(this);
+}
+public void mouseClicked(MouseEvent me)
+{
